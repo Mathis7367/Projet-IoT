@@ -6,11 +6,11 @@
 2. Open the config file of MQTT 
 	$ sudo nano /etc/mosquitto/mosquitto.conf
 	
-	We want to use the default settings, to prevent the use of the MQTT by unknonw users, to set it up on port 1883, and to save the passwords on a separate file
-	for this, coment the line "include_dir etc/mosquitto/conf.d"
+	We want to use the default settings, to prevent the use of the MQTT by unknonw users, to set it up on port 1883, and to save the passwords on a separate file.  
+	for this, coment the line "include_dir etc/mosquitto/conf.d"  
 	add : 	
-		allow_anonymous false
-		password_file /etc/mosquitto/pwfile
+		allow_anonymous false  
+		password_file /etc/mosquitto/pwfile  
 		listener 1883
 	
 	ctrl + x then y to save and close
