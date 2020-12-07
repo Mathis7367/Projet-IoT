@@ -45,4 +45,4 @@
 3. $ python raspberry_part.py  //run the script.  
 
 The Raspberry should be receiving datas.  
-If not check the MQTT ans wifi settings.
+If not check the MQTT and wifi settings.
