@@ -1,4 +1,4 @@
-#Installation du MQTT broker pour la communication arduino --> Raspberry
+# Installation du MQTT broker pour la communication arduino --> Raspberry
 
 1. Installation du MQTT broker sur la raspberry
 	sudo apt-get install mosquitto
@@ -29,7 +29,7 @@ And enter your password
 	$ sudo systemctl enable mosquitto  //start MQTT at boot
 	$ sudo mosquitto //start mosquitto
 	
-#Publisher setup Arduino
+# Publisher setup Arduino
 
 1. Make sure that the wifi emitter is connected
 2. load the file arduino_part.ino
