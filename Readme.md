@@ -1,4 +1,4 @@
-# Installation du MQTT broker pour la communication arduino --> Raspberry
+# MQTT broker arduino --> Raspberry
 
 1. Installation du MQTT broker sur la raspberry
 	sudo apt-get install mosquitto
