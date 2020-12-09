@@ -1,3 +1,5 @@
+[Document used for this tutorial](https://diyi0t.com/microcontroller-to-raspberry-pi-wifi-mqtt-communication/)
+
 # MQTT broker arduino --> Raspberry
 
 1. Installation du MQTT broker sur la raspberry
@@ -39,8 +41,8 @@
 
 # Suscriber setup Raspberry
 
-1. sudo pip install paho-mqtt.  
-2. sudo nano get_MQTT_data.py // create a python script to receive the data.  
+1. $ sudo pip install paho-mqtt.  
+2. $ sudo nano get_MQTT_data.py // create a python script to receive the data.  
 	Here we use the file raspberry_part.py  
 3. $ python raspberry_part.py  //run the script.  
 
